@@ -1,5 +1,18 @@
-.img {
-    size: auto; 
-    padding: inherit;
+img {
+    size: 10%; 
+    padding: 100px;
     flex: inherit;
+
+}
+p {
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+h1 {
+    font-family: 'Franklin Gothic Medium';
+}
+
+h1 :hover {
+    color: red;
 }
