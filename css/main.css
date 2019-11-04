@@ -18,6 +18,11 @@
 .img-fluid {
     width: 30%;
     height: 30%;
-    background-color: rgba(255, 255, 255, 0.144);
+    background-color: rgba(107, 15, 15, 0.986);
 } 
-
+.carousel-item {
+    background-color: rgb(10, 196, 10);
+}
+body {
+    color: lightpink;
+}
