@@ -2,13 +2,7 @@
 Digital portfolio
 Table of content:
 
- > Digital design: Digital assignment 
-
-
-    ! DEADLINE: 12 April
-
-    Requirments criteria:
-    Good (3)
+ 
 The information hierarchie contributes to the understanding and the retention of the presented information AND more than two visualisation methods have been used.
 The implemented interactive components are  meaningful AND lead to the presentation of new relevant information for at least 2 visualisation methods
 Where relevant an animation has been added to each interactive/dynamic component
