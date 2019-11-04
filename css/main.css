@@ -1,18 +1,23 @@
-img {
-    size: 10%; 
-    padding: 100px;
-    flex: inherit;
+/* // Экстрамалые девайсы («телефоны», < 576px)
+// Нет @media, т.к. это по умолчанию в Bootstrap
 
-}
-p {
-    font-size: 15px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+// Малые девайсы («ландшафтные телефоны», >= 576px)
+@media (min-width: 576px) { ... }
 
-}
-h1 {
-    font-family: 'Franklin Gothic Medium';
-}
+// Средние девайсы («таблетки», >= 768px)
+@media (min-width: 768px) { ... }
 
-h1 :hover {
-    color: red;
-}
+// Большие девайсы (десктопы, >= 992px)
+@media (min-width: 992px) { ... }
+
+// Экстрабольшие девайсы (большие десктопы, >= 1200px)
+@media (min-width: 1200px) { ... }
+ */
+
+
+.img-fluid {
+    width: 30%;
+    height: 30%;
+    background-color: rgba(255, 255, 255, 0.144);
+} 
+
