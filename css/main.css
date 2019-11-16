@@ -14,6 +14,9 @@
 @media (min-width: 1200px) { ... }
  */
 
+ #slides {
+     align-content: center;
+ }
 
 .img-fluid {
     width: 30%;
@@ -25,6 +28,7 @@
 }
 h1{
     font-color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 h2{
     font-color: black;
