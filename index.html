@@ -6,21 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Lyralei Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main1.css" />
     <script src="js/main.js"></script>
 
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
-    </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
-    </script>
+
 
 
 </head>
@@ -39,100 +29,28 @@
         everywhere stretching attack your ankles chase the red dot, hairball run
         catnip eat the grass sniff.
     </p> -->
-<body class="bg-light">
-    <header>
-        <h1>Welcome to my Portfolio Website!</h1>
-        
-    </header>
-
-    <!--NAVIGATION. A banner and nav bar. Give a list of refs to other sections on the website (HOME, about, Contact, Service,) -->
-    <nav class="navbar navbar-expand-md navbar-light bg-secondary sticky-top">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img class="img-fluid" src="pics/FinalMono.png" /></a>
-            <button class="navbar-toggler" type="button" data-toggler="collapse" data-target="#navbarResponsive">
-                <span class="navbar-toggler-icon"></span>
-                <!-- create a toggler for the flexability of the webite "ml-auto aligns the list items to the left side"-->
-            </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Memes</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Danks</a>
-                    </li>
-                </ul>
-
+<body>
+    <div class="container">
+        <div class="menu">
+            <ul>
+                <li class="logo"><img class="img-fluid" src="pics/yellowldpi.png" /></li>
+                <li class="active">Home</li>
+                <li>About</li>
+                <li>Mail</li>
+            </ul>
+        </div>
+        <div class="banner">
+            <div class="page-text">
+                <h1>Moin! </h1><br>
+                <h2>I am very glad to see you here</h2> <br>
+                <p>My name is Adelina and I am a <br><u>Software Developer</u> </p>
             </div>
         </div>
-    </nav>
-
-    <!-- Extendable search bar with "Quick search"-->
-    <span class="col-3">
-        <form action="keywordSearch">
-            <input type="text" placeholder="Search on Website" required />
-            <button id="butt" type="submit">Submit</button>
-        </form>
-    </span>
-
-   
-
-    <!-- Intro Text. "MOIN! (make the word "hello" change depending on the location of the accesor) // My name is Adeline // and // I do CODING (highlighted and refed) // Would you like to take a look at my projects? "-->
-    <div class="">
-        <h1 class="display-1 ">Moin! </h1>
-        <p>Hello! My name is Adelina and this is my portfolio webite!</p>
-        
-    </div>
-    <!-- Animated scrolling pictures which have floating text overlaping with the picture, which refers to the content-->
-
-    <div id="slides" class="carousel slide container-fluid" data-ride="carousel">
-        <ul class="carousel-indicators">
-            <!--Tiny elements at the bottom of the carousel that indicate the displayed picture-->
-            <li data-target="#slides" data-slide-to="0" class="active"></li>
-            <li data-target="#slides" data-slide-to="1"></li>
-            <li data-target="#slides" data-slide-to="2"></li>
-        </ul>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="pics/bg1.jpg">
-                <div class="carousel-caption">
-                    <h1 class="display-3">HUTUTU USING BT yolo</h1>
-                    <h3>Game Dev student life</h3>
-                    <button type="button" class="btn btn-outline-light">CLICK MEE</button>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="pics/bg.jpg">
-            </div>
-            <div class="carousel-item">
-                <img src="pics/bg1.jpg">
-            </div>
-            
-        </div>
-    </div>
-    <!-- Text: Explore my website for MORE -->
-    <div class="container-fluid">
-        <div class="row jumbotron">
-            <!--add a div to scale the text according to @media sizes coloum width-->
-           <div> <p class="lead">Cat ipsum dolor sit amet, jump launch to pounce upon little yarn mouse,
-                    bare fangs at toy run hide in litter box until treats are fed. Go into a
-                    room to decide you didn't want to be in there anyway. I like big cats
-                    and i can not lie kitty ipsum dolor sit amet, shed everywhere shed
-                    everywhere stretching attack your ankles chase the red dot, hairball run
-                    catnip eat the grass sniff.</p>
-                </div>
-                <div><a href="#"><button type="button" class="btn btn-outline-info"> MEOW for more</button></a></div>
-        </div>
-    </div>
-
-    <!-- Footer which applies to every page with social media links and text: Find me on: -->
+        <!--Make some links to the media-->
+        <!--Make an email form (of course connected to the email)-->
+        <!-- mayeb add a small descriprive text-->
     
+    </div> 
 </body>
 
 </html>
